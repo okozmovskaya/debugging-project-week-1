@@ -1,0 +1,143 @@
+# Development Strategy
+
+> `Debugging-project-week-1`
+
+- This project about development simple site with 6 buttons with user-input functions in `Javascript` and with applying html, css,  incremental-development, adding git-branches per every step of dev-strategy, merging by pull-request and closes issues with colaborating of 2 students. 
+- This project would interest for novice students of web-development because there is example of simple functions in `Javascript`,  applying colaboration and incremental-development.
+
+## Wireframe
+
+![wireframe](./Wireframe.png)
+
+## 0. Set-Up
+
+__A User can see my initial repository and live demo__
+
+### Repo
+
+- Generate from Template
+- Write initial, basic README
+- Turn on GitHub Pages
+
+## 1. HTML
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `html`
+
+### What change?
+
+- 
+
+
+----
+
+## 2. CSS
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `css`
+
+
+### What change?
+
+- 
+
+
+----
+
+## 3. Button 1 "Confirm ending"
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `01-confirm-ending`
+
+### What change?
+
+- 
+
+
+----
+
+## 4. Button 2 "Convert to celsius"
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `02-convert-to-celcius`
+
+### What change?
+
+- 
+
+----
+
+## 5. Button 3 "Convert to fahrenheit"
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `03-convert-to-fahrenheit`
+
+### What change?
+
+- 
+
+----
+
+## 6. Button 4 "Find longest word length"
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `04-find-longest-word`
+
+### What change?
+
+- 
+
+----
+
+## 7. Button 5 "Repeat string num times"
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `05-repeat-string`
+
+### What change?
+
+- 
+
+----
+
+## 8. Button 6 "Reverse-a-string"
+
+__As visitor I expect see ...__
+
+### Repo
+
+developed on a branch called `06-reverse-a-string`
+
+### What change?
+
+- 
+
+----
+
+
+
+## Finishing Touches
+
+- Write final, complete README:
+- Validate code to check for any last mistakes
