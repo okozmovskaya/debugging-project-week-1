@@ -3,7 +3,17 @@
 console.log('-- loading: confirmEnding');
 
 
-function confirmEnding() { }
+function confirmEnding(str, ending) {
+
+  const arg = str.endsWith(ending);
+
+  if (arg === true) {
+    return 'Voi-la! Your ending is correct!';
+  } else {
+    return 'Hmm! You made some mistakes.'
+  }
+  
+ }
 
 
 {
@@ -66,10 +76,29 @@ function confirmEndingHandler() {
 
   // read user input
 
+  const inputStr = prompt('Write word or sentences.');
+  const str = String(inputStr)
+  const inputEnding = prompt('Write the ending of sentence or word');
+  const ending = String(inputEnding)
+
+  if (typeof str !== 'string') { throw new TypeError(); }
+  if (typeof ending !== 'string') { throw new TypeError(); }
+
+  
+  
   // core logic
   const result = confirmEnding(str, ending);
 
   // display for use
 
+  alert(result);
+
   // log for developers
+  console.log('\n--- loading: confirmEnding ---');
+  console.log('userInputString:', typeof userInputString, '\n', userInputString);
+  console.log('str:', typeof str, '\n', str);
+  console.log('userInputEnding:', typeof userInputEnding, '\n', userInputEnding);
+  console.log('ending:', typeof ending, '\n', ending);
+  console.log('result:', typeof result, '\n', result);
+
 }
