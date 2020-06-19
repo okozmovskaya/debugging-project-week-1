@@ -72,7 +72,7 @@ developed on a branch called `01-confirm-ending` by `Olga`
 
 ## 4. Button 2 "Convert to celsius"
 
-__As visitor I expect see ...__
+__As visitor I expect see the button when after click convert temp in Fahrenheit to celcius__
 
 ### Repo
 
@@ -80,7 +80,8 @@ developed on a branch called `02-convert-to-celcius` by `Olga`
 
 ### What change?
 
-- 
+- Add functions in js which convert temp in Fahrenheit to celcius
+- Add consol.logs for dev
 
 ----
 
