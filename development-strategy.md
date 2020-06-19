@@ -38,7 +38,7 @@ developed on a branch called `html` by `Olga`
 
 ## 2. CSS
 
-__As visitor I expect see ...__
+__As visitor I expect to see my buttons in the center of the page__
 
 ### Repo
 
@@ -47,7 +47,10 @@ developed on a branch called `css` by `Razvan`
 
 ### What change?
 
-- 
+- Add `display:flex` property
+- Add `flex-direction` property to be column
+- Add `align-items`  property to  in center
+- Add a `margin` property
 
 
 ----
