@@ -57,7 +57,7 @@ developed on a branch called `css` by `Razvan`
 
 ## 3. Button 1 "Confirm ending"
 
-__As visitor I expect see ...__
+__As visitor I expect see button which confirm the ending of sentence or word I entered__
 
 ### Repo
 
@@ -65,8 +65,8 @@ developed on a branch called `01-confirm-ending` by `Olga`
 
 ### What change?
 
-- 
-
+- Add functions in js which confirm the ending of sentence
+- Add consol.logs for dev
 
 ----
 
