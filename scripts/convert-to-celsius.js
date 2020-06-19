@@ -3,7 +3,14 @@
 console.log('-- loading: convertToCelsius');
 
 
-function convertToCelsius() { }
+function convertToCelsius(argF) {
+
+  const tempFahr = argF;
+  const toCel = (tempFahr - 32) * 5 / 9;
+  const messageF = `${tempFahr}\xB0F is ${toCel} \xB0C.`;
+
+    return messageF;
+}
 
 
 {
@@ -46,11 +53,19 @@ function convertToCelsiusHandler() {
   debugger;
 
   // read user input
+  const inputTempFahr = prompt('Write below the temp you want to convert in celsius')
+  const argF = Number(inputTempFahr)
+
+  if (typeof argF !== 'number') { throw new TypeError(); }
 
   // core logic
-  const result = convertToCelsius(f);
+  const resultCel = convertToCelsius(argF);
 
   // display for use
+  alert(resultCel)
 
   // log for developers
+  console.log('-- loading: convertToFahrenheit');
+  console.log('inputTempFahr:', typeof inputTempFahr, '\n', inputTempFahr);
+  console.log('resultCel:', typeof resultCel, '\n', resultCel)
 }
