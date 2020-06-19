@@ -21,16 +21,18 @@ __A User can see my initial repository and live demo__
 
 ## 1. HTML
 
-__As visitor I expect see ...__
+__As visitor I expect see clickable buttons on the page with clearly names__
 
 ### Repo
 
-developed on a branch called `html`
+developed on a branch called `html` by `Olga`
 
 ### What change?
 
-- 
-
+- Add 6 buttons with names
+- Add property `onclick` to each of buttons
+- Add links to functions JS and links to files `.js`
+- Add link to file `.css`
 
 ----
 
@@ -40,7 +42,7 @@ __As visitor I expect see ...__
 
 ### Repo
 
-developed on a branch called `css`
+developed on a branch called `css` by `Razvan`
 
 
 ### What change?
@@ -56,7 +58,7 @@ __As visitor I expect see ...__
 
 ### Repo
 
-developed on a branch called `01-confirm-ending`
+developed on a branch called `01-confirm-ending` by `Olga`
 
 ### What change?
 
@@ -71,7 +73,7 @@ __As visitor I expect see ...__
 
 ### Repo
 
-developed on a branch called `02-convert-to-celcius`
+developed on a branch called `02-convert-to-celcius` by `Olga`
 
 ### What change?
 
@@ -85,7 +87,7 @@ __As visitor I expect see ...__
 
 ### Repo
 
-developed on a branch called `03-convert-to-fahrenheit`
+developed on a branch called `03-convert-to-fahrenheit` by `Olga`
 
 ### What change?
 
@@ -99,7 +101,7 @@ __As visitor I expect see ...__
 
 ### Repo
 
-developed on a branch called `04-find-longest-word`
+developed on a branch called `04-find-longest-word` by `Razvan`
 
 ### What change?
 
@@ -113,7 +115,7 @@ __As visitor I expect see ...__
 
 ### Repo
 
-developed on a branch called `05-repeat-string`
+developed on a branch called `05-repeat-string` by `Razvan`
 
 ### What change?
 
@@ -127,7 +129,7 @@ __As visitor I expect see ...__
 
 ### Repo
 
-developed on a branch called `06-reverse-a-string`
+developed on a branch called `06-reverse-a-string` by `Razvan`
 
 ### What change?
 
