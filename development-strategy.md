@@ -132,7 +132,7 @@ developed on a branch called `05-repeat-string` by `Razvan`
 
 ## 8. Button 6 "Reverse-a-string"
 
-__As visitor I expect see ...__
+__As visitor I expect see a button that revers a string when the user types a text__
 
 ### Repo
 
@@ -140,7 +140,8 @@ developed on a branch called `06-reverse-a-string` by `Razvan`
 
 ### What change?
 
-- 
+- Add functions in js which reverse a string
+- Add consol.logs for dev
 
 ----
 
