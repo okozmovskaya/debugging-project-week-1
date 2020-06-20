@@ -72,7 +72,7 @@ developed on a branch called `01-confirm-ending` by `Olga`
 
 ## 4. Button 2 "Convert to celsius"
 
-__As visitor I expect see the button when after click convert temp in Fahrenheit to celcius__
+__As visitor I expect see the button when after click convert temp in Fahrenheit to Celcius__
 
 ### Repo
 
@@ -80,14 +80,14 @@ developed on a branch called `02-convert-to-celcius` by `Olga`
 
 ### What change?
 
-- Add functions in js which convert temp in Fahrenheit to celcius
+- Add functions in js which convert temp in Fahrenheit to Celcius
 - Add consol.logs for dev
 
 ----
 
 ## 5. Button 3 "Convert to fahrenheit"
 
-__As visitor I expect see ...__
+__As visitor I expect see the button when after click convert temp in Celcius to Fahrenheit__
 
 ### Repo
 
@@ -109,7 +109,8 @@ developed on a branch called `04-find-longest-word` by `Razvan`
 
 ### What change?
 
-- 
+- Add functions in js which convert temp in Celcius to Fahrenheit 
+- Add consol.logs for dev
 
 ----
 
