@@ -3,7 +3,18 @@
 console.log('-- loading: repeatStringNumTimes');
 
 
-function repeatStringNumTimes() { }
+function repeatStringNumTimes(str, num) { 
+ 
+  if (num <= 0) {
+    return '';
+  }
+  let repeatedString = '';
+  for (let i = 0; i < num; i++) {
+    repeatedString += str;
+  }
+  return repeatedString;
+
+}
 
 
 {
@@ -58,12 +69,17 @@ function repeatStringNumTimesHandler() {
   debugger;
 
   // read user input
-
+  const inputText= prompt('Please enter the text you want to repeat');
+  const str = String(inputText);
+  const inputNum= prompt('How times do you want to repeat phrase?');
+  const num = Number(inputNum);
   // core logic
-  const result = repeatStringNumTimes(str, num);
+  const resultRepeat = repeatStringNumTimes(str, num);
 
   // display for use
+  alert(resultRepeat);
 
   // log for developers
+  console.log(resultRepeat);
 }
 
