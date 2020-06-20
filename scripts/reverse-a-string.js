@@ -3,7 +3,15 @@
 console.log('-- loading: reverseString');
 
 
-function reverseString() { }
+function reverseString(str) {
+  
+  let newString="";
+  for (let i = str.length -1; i >=0; i--) {
+    newString += str[i];
+  }
+  return newString;
+  
+ }
 
 
 {
@@ -46,12 +54,15 @@ function reverseStringHandler() {
   debugger;
 
   // read user input
-
+  const inputText= prompt("Please enter a text");
+  const str = String(inputText);
   // core logic
-  const result = reverseString(str);
+  const resultRevers = reverseString(str);
 
   // display for use
+  alert(resultRevers);
 
   // log for developers
+  console.log(resultRevers);
 }
 
