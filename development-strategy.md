@@ -117,7 +117,7 @@ developed on a branch called `04-find-longest-word` by `Razvan`
 
 ## 7. Button 5 "Repeat string num times"
 
-__As visitor I expect see a button for repeating a string how many times the user wants__
+__As visitor I expect see ...__
 
 ### Repo
 
@@ -125,8 +125,7 @@ developed on a branch called `05-repeat-string` by `Razvan`
 
 ### What change?
 
-- Add functions in js which repeat the string how many times the user wants to repeat
-- Add consol.logs for dev
+- 
 
 ----
 
