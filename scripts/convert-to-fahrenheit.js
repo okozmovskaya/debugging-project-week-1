@@ -52,8 +52,8 @@ function convertToFahrenheitHandler() {
   debugger;
 
   // read user input
-  const inputTempCel = prompt('Write below the temp you want to convert in fahrenheit')
-  const argC = Number(inputTempCel)
+  const inputTempCel = prompt('Write below the temp you want to convert in fahrenheit');
+  const argC = Number(inputTempCel);
 
   if (typeof argC !== 'number') { throw new TypeError(); }
 
@@ -61,10 +61,10 @@ function convertToFahrenheitHandler() {
   const resultFahr = convertToFahrenheit(argC);
 
   // display for use
-  alert(resultFahr)
+  alert(resultFahr);
 
   // log for developers
   console.log('-- loading: convertToFahrenheit');
   console.log('inputTempCel:', typeof inputTempCel, '\n', inputTempCel);
-  console.log('resultFahr:', typeof resultFahr, '\n', resultFahr)
+  console.log('resultFahr:', typeof resultFahr, '\n', resultFahr);
 }
