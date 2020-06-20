@@ -3,7 +3,20 @@
 console.log('-- loading: findLongestWordLength');
 
 
-function findLongestWordLength() { }
+function findLongestWordLength(str) { 
+    // Split the string of words into an array of words.
+  // Make sure to include a space in between the quotes
+  // in the split method. This makes sure we are splitting
+  // the array into whole words rather than each letter.
+  // Use map to create an array with the length of each word.
+ let lengths = str.split(' ').map(word => word.length)
+ 
+  // Using Math.max(), pick out and return the highest number
+  // in the lengths array. The spread operator here "..."
+  // allows us to use the elements of the lengths array
+  // as the argument for Math.max().
+ return Math.max(...lengths)
+}
 
 
 {
@@ -41,12 +54,15 @@ function findLongestWordLengthHandler() {
   debugger;
 
   // read user input
-
+  const sentence = prompt("Please enter some text");
+  const str = String(sentence);
   // core logic
   const result = findLongestWordLength(str);
 
   // display for use
+  alert(`The longest word has ${result} letters`);
 
   // log for developers
+  console.log(result);
 }
 

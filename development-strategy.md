@@ -95,13 +95,14 @@ developed on a branch called `03-convert-to-fahrenheit` by `Olga`
 
 ### What change?
 
-- 
+- Add functions in js which convert temp in Celcius to Fahrenheit 
+- Add consol.logs for dev
 
 ----
 
 ## 6. Button 4 "Find longest word length"
 
-__As visitor I expect see ...__
+__As visitor I expect see a button that finds the longest word length in a sentence__
 
 ### Repo
 
@@ -109,7 +110,7 @@ developed on a branch called `04-find-longest-word` by `Razvan`
 
 ### What change?
 
-- Add functions in js which convert temp in Celcius to Fahrenheit 
+- Add functions in js which finds the longest word length
 - Add consol.logs for dev
 
 ----
