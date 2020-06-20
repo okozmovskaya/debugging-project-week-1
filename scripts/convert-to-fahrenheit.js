@@ -3,8 +3,14 @@
 console.log('-- loading: convertToFahrenheit');
 
 
-function convertToFahrenheit() { }
+function convertToFahrenheit(argC) {
 
+  const tempCel = argC;
+  const toFahr = tempCel * 9 / 5 + 32;
+  const message = `${tempCel}\xB0C is ${toFahr} \xB0F.`;
+
+    return message;
+}
 
 {
   console.log('-- testing: convertToFahrenheit ');
@@ -46,11 +52,19 @@ function convertToFahrenheitHandler() {
   debugger;
 
   // read user input
+  const inputTempCel = prompt('Write below the temp you want to convert in fahrenheit')
+  const argC = Number(inputTempCel)
+
+  if (typeof argC !== 'number') { throw new TypeError(); }
 
   // core logic
-  const result = convertToFahrenheit(c);
+  const resultFahr = convertToFahrenheit(argC);
 
   // display for use
+  alert(resultFahr)
 
   // log for developers
+  console.log('-- loading: convertToFahrenheit');
+  console.log('inputTempCel:', typeof inputTempCel, '\n', inputTempCel);
+  console.log('resultFahr:', typeof resultFahr, '\n', resultFahr)
 }
